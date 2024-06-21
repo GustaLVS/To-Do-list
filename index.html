@@ -12,13 +12,12 @@
     </head>
     <body>
         <main>
-            <div class="conteiner">
+            <div class="conteiner" id="mainContainer">
                 <h1>TO-DO LIST</h1>
                 <div class="Add">
                     <div class="write">
                         <input
                             type="text"
-                            d
                             placeholder="Digite sua tarefa"
                             id="txt"
                         />
@@ -26,18 +25,13 @@
                             <i class="bi bi-plus-circle-fill"></i>
                         </button>
                     </div>
-                    <div class="list">
-                        <p>aqui vai aparecer as tarefas</p>
-                        <button id="check">
-                            <i class="bi bi-check-circle-fill"></i>
-                        </button>
-                        <button id="edit">
-                            <i class="bi bi-pencil-fill"></i>
-                        </button>
-                        <button><i class="bi bi-trash-fill"></i></button>
+                    <div class="cont" id="taskContainer">
+                        <!-- As tarefas aparecerão aqui -->
                     </div>
                 </div>
+                <div class="watermark">Feito por GUSTAVO ALVES</div>
             </div>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
